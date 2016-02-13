@@ -1,0 +1,44 @@
+@font-face {
+	font-family: bitoperator;
+	src:url(8bitoperator.ttf);
+}
+
+/* -------------------------------------- */
+
+body {
+	font-family: bitoperator;
+	background-color:#101010;
+}
+
+p {
+	font-size:24px;
+	color:white;
+}
+
+video {
+	object-fit:fill;
+}
+
+/* -------------------------------------- */
+
+.center-box {
+	margin:0 auto;
+	width:720px;
+}
+
+.center-video {
+	margin:0 auto;
+	width:720px;
+}
+
+/* -------------------------------------- */
+
+#box {
+	position:absolute;
+	z-index:-1;
+}
+
+#inner-text {
+	padding-top:5px;
+	padding-left:25px;
+}
