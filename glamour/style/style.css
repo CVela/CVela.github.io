@@ -21,14 +21,33 @@ video {
 
 /* -------------------------------------- */
 
-.center-box {
+.center-content {
 	margin:0 auto;
 	width:720px;
 }
 
 .center-video {
 	margin:0 auto;
-	width:720px;
+	width:480px;
+}
+
+.img-inline {
+	display:inline;
+}
+
+.img-inline-2 {
+	display:inline;
+	padding-left:10px;
+}
+
+.img-inline-3 {
+	display:inline;
+	padding-left:10px;
+}
+
+.img-inline-4 {
+	display:inline;
+	padding-left:10px;
 }
 
 /* -------------------------------------- */
@@ -41,4 +60,5 @@ video {
 #inner-text {
 	padding-top:5px;
 	padding-left:25px;
+	margin-bottom:200px;
 }
