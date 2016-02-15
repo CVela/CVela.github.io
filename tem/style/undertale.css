@@ -1,0 +1,21 @@
+@font-face {
+	font-family: bitoperator;
+	src:url(8bitoperator.ttf);
+}
+
+html, body {
+	background-color: black;
+	color: white;
+	font-family: bitoperator, Fixedsys, sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+}
+
+#rumbling_character {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+}
